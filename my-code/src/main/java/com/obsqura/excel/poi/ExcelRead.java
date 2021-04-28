@@ -15,6 +15,7 @@ public class ExcelRead {
 
 	public static void main(String[] args) {
 		try {
+            System.out.println("Started");
             FileInputStream file = new FileInputStream(new File(STUDENT_DATA_FILE));
   
             // Create Workbook instance holding reference to .xlsx file
